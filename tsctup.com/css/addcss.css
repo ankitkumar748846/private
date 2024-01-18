@@ -1,0 +1,146 @@
+.btn-whatsapp-pulse {
+    background: #25d366;
+    color: white;
+    position: fixed;
+    bottom: 160px;
+    right: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+    }
+    80% {
+        box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+    }
+}
+
+.btn-whatsapp-pulse-border {
+    bottom: 160px;
+    left: 30px;
+    animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    padding: 25px;
+    border: 5px solid #25d366;
+    opacity: 0.75;
+    animation-name: pulse-border;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+    0% {
+        padding: 25px;
+        opacity: 0.75;
+    }
+    75% {
+        padding: 50px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.html-text-class {
+    width: 330px;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #BB45F5, #1B5BBF, #BB45F5);
+    background-size: 300% auto;
+    transition: 0.5s all;
+    transform: skewX(-25deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.html-text-class:hover {
+    background-position: right center;
+}
+
+.bg {
+    background-image: url("images/other/web.jpg");
+}
+
+.techbutton {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #BB45F5, #1B5BBF, #BB45F5);
+    background-size: 200% auto;
+    transition: 0.5s all;
+    transform: skewX(-26deg);
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+.techbutton:hover {
+    background-position: right center;
+}
+
+/* pagination start*/
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*pagination end */
