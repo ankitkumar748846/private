@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TSCT UP | Teachers Self Care Team - Uttar Pradesh | TSCTUP">
+    <title>TSCT UP | Teachers Self Care Team - Uttar Pradesh | TSCTUP</title>
+    <link rel="icon" type="image/x-icon" href="../img/main-logo.png">
+    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565453290804249"-->
+    <!-- crossorigin="anonymous"></script>-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="css/addcss.css" rel="stylesheet" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<style>
+.btn{
+    border:none;padding:9px 33px;text-transform:capitalize;border-radius:30px;cursor:pointer;color:#fff;display:inline-block;font-size:15px;box-shadow:0px 7px 21px 0px rgba(0,0,0,0.12);background-image:linear-gradient(to right, #66D17C 0%, #66D17C 51%, #66D17C 100%);background-position:right;background-size:100%;
+}
+/*.btn:hover i{left:0px}.btn:hover{background-position:left}*/
+/*.btn.focus,.btn:focus{outline:0;box-shadow:none}*/
+	
+    .my-form {
+        color: #305896;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
+    
+    .gallery_img {
+        height:400px;
+        width:400px;
+        margin:20px;
+        border: 1px solid #BFBFBF;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        padding:20px;
+    }
+    
+    
+    
+    
+       
+        .newsheading {
+            font-size: 5em;
+            font-family: serif;
+            color: yellow;
+            text-align: center;
+            animation: animate 
+                1.5s linear infinite;
+        }
+  
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.7;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        // Google Maps setup
+        var googlemap = new google.maps.Map(
+            document.getElementById('googlemap'),
+            {
+                center: new google.maps.LatLng(44.5403, -78.5463),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+        );
+    });
+    
+   
+function get_tc_id(){
+    var tcid=document.getElementById("tc_id");
+    tcid.innerHTML="<label>यदि हां तो tc id हो तो लिखें।</label><input type='number' id='tcid' name='tcid' class='form-control' /><br><label>पूर्व में किये गए रजिस्ट्रेशन की तिथि</label><input type='datetime-local' id='registered_date' name='registered_date' class='form-control' />";
+}
+
+function clear_tc_id(){
+    var tcid=document.getElementById("tc_id");
+    tcid.innerHTML="";
+}
+</script>
+</head>
+<body>
+    <div class="wrapper">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #3F3F97;
+  overflow: auto;
+  animate: none;
+}
+
+.head1:hover{
+    background-color: white;
+    color: #3F3F97;
+}
+.head1{
+    background-color: white;
+    color: #3F3F97;
+    font-weight: 700;
+    font-size:26px;
+    animate:none;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  /*width: 12.5%; */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #3F3F97;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+.a1{
+    width: 10%;
+}
+.a2{
+    width: 12%;
+}
+.a3{
+    width: 15%;
+}
+.a4{
+    width: 15%;
+}
+.a5{
+    width: 15%;
+}
+.a6{
+    width: 12%;
+}
+.a7{
+    width: 10%;
+}
+.a8{
+    width: 11%;
+}
+.logo_img{
+    width: 80px;
+}
+@media screen and (max-width: 600px) {
+
+.navbar{
+    padding-left: 15px;
+    background-color:white;
+}
+  .navbar a {
+    /*float: none;*/
+    display: block;
+    width: 47%;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid red;
+    margin: 2px;
+    background-color: #3F3F97;
+  }
+  .logo_img{
+    width: 60px;
+  }
+  .head1,.head2{
+    font-size: 18px;
+  }
+  .tophead1{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .tophead2{
+    font-size: 12px;
+    margin-top: -25px;
+    margin-bottom: -5px;
+  }
+  .side_login_button{
+    padding-bottom: 5px;
+  }
+  .reg_button{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px)  {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 1px;
+  }
+  .logo_img{
+    width: 80px;
+  }
+  .head1,.head2{
+    font-size: 24px;
+  }
+  .tophead1{
+    font-size: 18px;
+    
+  }
+  .tophead2{
+    font-size: 18px;
+    /*margin-top: -25px;*/
+    margin-bottom: -5px;
+  }
+  .side_login_button{
+    margin-top: -25px;
+    padding-bottom: 5px;
+  }
+  .reg_button{
+    text-align: center;
+  } 
+  }
+</style>   
+
+   <div style="overflow: hidden;">
+<div class="row" style="padding-top: 4px;padding-bottom: 0px;padding-left: 5px; background-color:#3F3F97; text-align:center;">
+    <div class="col-lg-2 col-sm-5 col-xs-12" >
+        <p style="color:white;padding-top: 5px;" class="tophead1">Helpline No.- 7007087337</p>
+    </div>
+    <div class="col-lg-5 col-sm-7 col-xs-12">
+        <p style="color:white;padding-top: 5px;" class="tophead2">पंजीकरण संख्याा :- ALL / 04988/2020-21 टीचर्स सेल्फ केयर समिति</p>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-6">
+        <a href="https://www.facebook.com/tsctup/"><i style="color:white; margin-top:5px;font-size:25px;" class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i style="color:white; margin-top:5px; margin-left:20px;font-size:25px;" class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://youtube.com/channel/UCqp7sU05ql-n3ElLUplX2gg"><i style="color:white; margin-top:5px; margin-left:20px;font-size:25px;" class="fa fa-youtube" aria-hidden="true"></i></a>
+        <a href="https://t.me/joinchat/UZcQ8K8dM-FfyRIz"><i style="color:white; margin-top:5px; margin-left:20px;font-size:25px;" class="fa fa-telegram" aria-hidden="true"></i></a>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-xs-6 side_login_button" style="padding-top: 2px;">
+                                    <a href="teacher/login.html" class="btn" style="background-color: #673AB7;">Login</a>
+                                </div>
+</div>
+<div class="row" style="padding: 10px;overflow: hidden;">
+    <div class="col-lg-2 col-sm-2 col-xs-3" style="text-align:right;z-index:5;">
+        <a href=""><img src="img/main-logo.png" alt="" class="logo_img" /></a>
+    </div>
+    <div class="col-lg-6 col-sm-7 col-xs-9" style="z-index:5;">
+        <a href="" class="head1" >Teachers Self Care Team – Uttar Pradesh</a>
+        <h3 class="head2">Today's support is tomorrow's anchor.</h3>
+    </div>
+        <div class="col-lg-4 col-sm-3 reg_button" style="margin-top: 10px;">
+        
+        <a href="register.html" class="btn btn-success">Registration</a> 
+         
+    </div>
+    </div>
+<div class="row" style="overflow: hidden;">
+    <div class="navbar">
+        
+            <a class="navlink a1"  href="index.html" >HOME</a>
+            <a class="navlink a2"  href="about.html" >ABOUT US</a>
+            <a class="navlink a3"  href="teacher_list.html">TEACHER'S LIST</a>
+            <a class="navlink a4"  href="sahayogsuchi_list.html">SAHYOG LIST</a>
+            <a class="navlink a5"  href="vyawasthashulk_list.html">VYAWASTHA LIST</a>
+            <a class="navlink a6"  href="niyamwali.html">NIYAMAWALI</a>
+            <a class="navlink a7"  href="blog.html">BLOG</a>
+            <a class="navlink a8"  href="contact.html">CONTACT</a>
+        
+    </div>
+</div>
+</div>
+        <div class="container" >
+            <div class="row" style="text-align: left; padding: 15px;">
+                <h3 style="text-align: center;color: #337AB7">Teachers Self-Care Team Rules</h3>
+                <h1 style="text-align: center;color: red">Service is the highest religion.</h1>
+                <p style="font-size: 19px;">
+                    The Teachers Self-Care Team was established on July 26, 2020, by teachers, for teachers, and is the first team created in Uttar Pradesh for the assistance of teachers.
+                    To join the Teachers Self-Care Team, teachers willingly agree to all rules and conditions on the website after providing their consent. <a href="https://tsctup.com" style="color: blue"> https://tsctup.com </a>  You can join by registering through the website.  <br>
+
+                    There is no membership fee of any kind to join the Teachers Self-Care Team. Membership in Teachers Self-Care is completely free. No teacher is obligated to join the Teachers Self-Care Team; teachers join voluntarily. </p>
+
+<p style="font-size: 19px;">The operation of the Teachers Self-Care Team is managed by the Teachers Self-Care Committee  (Registration Number:- <b>ALL / 04988/2020-21</b>)
+                </p>
+                <h2 style="text-align: center;color: #337AB7">Main Rules (For Members) -</h2>
+<p style="font-size: 19px;"><b>1)</b>The formation of the Teachers Self-Care Team initially began with primary school teachers. Later, considering the demand, secondary school teachers were also included, and the formation of the Shiksha Mitra / Instructor Branch was initiated. (This was done because Shiksha Mitras and Instructors are also part of our basic family, and considering their demand, a separate platform was created for them. However, the process of becoming members and providing support to Shiksha Mitras and Instructors has not started yet. This decision will be made in the future after the team resolves all dependencies.)</p>
+
+<p style="font-size: 19px;"><b>2)</b>To join the Teachers Self-Care Team, it is mandatory to register by filling out the necessary information-related form. Additionally, an official Telegram group for TSCT has been created where support, rules, or other important information is regularly provided. Members of the group are also encouraged to participate in polls or discussions related to making significant decisions when needed.It is important for members to stay updated by checking the Telegram group at least twice a week for important updates, decisions, or suggestions. Being a member of TSCT comes with the responsibility of staying informed and actively participating in discussions and polls.Members are expected to adhere to the group rules and regularly check for updates. Failure to do so may result in missing important information, and members are accountable for staying informed. Therefore, it is emphasized that all members should regularly check the Telegram group and stay updated with the information provided.The reason behind this practice is to ensure that TSCT members are well-informed and actively engaged in the community. It is mandatory for members to view the group at least twice a week and actively participate in updates. If a member fails to regularly check the Telegram group and misses relevant information, they are personally responsible for the consequences. Efforts are made to disseminate necessary information through other social media platforms and local team channels.Since the inception of TSCT, the principle has been: those who contribute receive support. Membership in TSCT is completely free from the first day. There is no fee to join the team, and the only requirement is to provide support to the families of deceased members.
+
+</p>
+
+<p style="font-size: 19px;"><b>(This rule has been in effect since the establishment.)</b></p>
+
+<p style="font-size: 19px;"><b>3)</b> Efforts are being made to initiate the bulk text message service to provide essential information.</p>
+
+ <p style="font-size: 19px;"><b>(This rule will be implemented from the time of arrangement of the system fee, as soon as permission is obtained from TRI.)</b></p>
+
+<p style="font-size: 19px;"><b>4)</b>TSCT has released a helpline number 7007087337 for the convenience of its members, where information can be provided through calls or WhatsApp messages. Any member can call or message this number to provide or receive information.</p>
+
+<p style="font-size: 19px;"><b>(This rule is applicable from the time of arrangement of the system fee.)</b></p>
+
+<p style="font-size: 19px;"><b>5)</b> After a few days of the formation of TSCT, the first support was provided to Mr. Shakil Ahmad from Prayagraj, followed by support to Mr. Vinod Chansoliya (Jalaun), and then support to Mr. Ashok Prabhakar from Amethi. At that time, it was a rule that everyone must contribute to every support. Those who contribute will receive support. To prevent misuse of the rules, after unanimous approval from the Telegram group and the district executive and IT cell, a 15-day lock-in period was implemented from the date of the decision <b>10/11/2020</b> announced</p>
+
+<p style="font-size: 19px;"><b>(This rule has been in effect since its establishment; only changes have been made in the rules of the lockdown period, all other rules remain unchanged.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (A)</b>The reference to a 15-day lockdown period means that if a teacher registers on January 1st and passes away by midnight on January 15th, they will not be eligible for assistance. Additionally, during the period from January 1st to January 15th, no assistance claims will be entertained. However, out of humanitarian considerations, one can still provide assistance during this period, but in return, no claims for assistance can be made by the nominee in case of death after the lockdown period. If the demise of such a member occurs on the 16th day of becoming a member or after the lockdown period without having the opportunity to assist, TSCT will provide assistance because the member did not have the opportunity to assist. Therefore, a provision will be made for providing assistance in such cases.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (B)</b> On April 20, 2021, based on the demand of the core team, district units, and rapid surveys conducted in groups, and considering the prevailing circumstances, the lockdown period was extended from 15 days to 30 days, and the rules and conditions under Clause 5(A) will be applicable for 30 days instead of 15 days and 31st day instead of the 16th day. On July 13, 2022, with the consent of the regional and district teams, the lockdown period was further extended from 30 days to 90 days.All other rules will remain unchanged</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>5 (B.1)</b>From February 7, 2022, after registering during the lockdown period of 1 month (30 days), it has been made mandatory for everyone to contribute. Starting from July 13, 2022, the lockdown period will be considered as 90 days, and during this period, all contributions will be mandatory. No assistance will be provided in the event of death during the lockdown period.</p>
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (C)</b>In the case of a serious illness, the lockdown period will be for 1 year (from February 7, 2022). If a member does not update or register their profile during or after registering for a serious illness, their assistance will not be possible, considering it under the category of confidentiality. The category of serious illnesses will be recognized based on the list provided by the Indian Medical Association.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>5 (C.1)</b>In the case of a serious illness, a lockdown period of 2 years is being implemented, effective from January 15, 2023. For those who joined before this, only 1 year will be applicable. It is mandatory to update the profile in the case of a serious illness, and only the team's investigation report will be considered final if hidden. No legal claim will be accepted on it in any way.</p>
+
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>5 (C.1a) Note : </b>From January 1, 2024, a lockdown period of 15 months is being implemented for a serious illness.</p>
+
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>5 (C.2)</b> In cases of serious illness, the team expects that all members will update their illness status in their profiles. If, for any reason, an update is not provided, the determination will be based on the cause of death. If the cause of death is an illness, it will be included in the illness, even if not displayed in the profile. Additionally, whether the information about the illness was available or not at the time of joining TSCT will not be a subject of the team's consideration. In such cases, decisions will be made based on the cause of death.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>Example</b> </p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;If a person has kidney problems and joins TSCT, the locking period will be only 2 years for them. Suppose, for instance, the person passes away within 6 months of joining due to a kidney-related issue, then it would be considered invalid. However, if the cause of death is an accident, it will be considered valid, as the death occurred due to an accident and not due to the illness.
+ </p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>Note: In the case of a person suffering from a serious illness, if the cause of death is indicated and substantiated, then conclusive evidence must be provided. The team will consider it valid only if satisfied with the presented evidence; otherwise, the illness will be considered the cause of death. In such cases, the team will have complete authority to make the final decision.</b> </p>
+
+<p style="font-size: 19px;"><b>(All rules are applicable from the time of establishment. Only changes in the rules related to the lock-in period have been made as necessary.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (D)</b> TSCT core team will also be independent in making decisions by using their discretion for the invitation of cooperation, and in matters related to legality or any kind where it deems appropriate, it will be independent to examine at its level. No member/nominee can claim legal rights or entitlements to receive assistance; instead, the organization will make efforts ethically to facilitate assistance.</p>
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (E)</b> "In the situation where there are multiple nominees for deceased members of TSCT, it is at the discretion and independent decision of the team to ensure assistance to the second nominee, and no legal or illegal action can be taken by the beneficiary in this regard. The beneficiary or their family cannot take any legal or illegal steps against the organization, such as making false accusations, spreading misinformation, or engaging in misconduct. In such cases, the team has the freedom to take legal action.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of its establishment.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>5 (F)</b> If, during or after the assistance, a teacher mistakenly sends an amount greater than the intended assistance to the account of the nominee, the nominee must, upon providing proper evidence, return the excess amount to the account of that teacher/member. The State Team cannot guarantee this, but will make meaningful and diligent efforts to facilitate the return of the mistakenly sent amount according to the rules.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment.)</b></p>
+
+<p style="font-size: 19px;"><b>6)</b> In the current time, it is mandatory for all members to contribute to receive assistance. After becoming a member, it is compulsory to fill out the ongoing website/Google form periodically after contributing during the lock-in period. Without contributing or in case of failure to fill out the Google form after contributing, the member will not be considered eligible for assistance. This is because filling out the form after contributing is mandatory for verifying validity.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment)</b></p>
+
+
+<p style="font-size: 19px;"><b>7)</b>  If a teacher has not contributed as a member after becoming a member or has not contributed at any point, then in such a situation, they will not be considered a valid member. Such members can activate their validity under the following rules:</p>
+   <p style="font-size: 19px;">&emsp;&emsp;<b>7 (A)</b> Members who consistently contribute after joining, if there is a break in contributions before 10 contributions (i.e., prior to the 90% discount), their validity will end. However, once the validity is terminated, membership can be reinstated by making 3 consecutive contributions. The member will not be considered valid for receiving contributions until completing the 3 contributions, and after completing 3 contributions, the member will become valid again. It's important to note that this opportunity will be given only once to a member. Additionally, it should be noted that only a maximum of 2 breaks in contributions will be allowed. If there are more breaks, Rule 7(B) will apply. The 90% rule will be effective if a member completes 10 contributions. In case of breaks beyond the 90% rule, Rules 7(A) and 7(B) will apply according to the circumstances.</p>
+
+   <p style="font-size: 19px;">&emsp;&emsp;<b>7 (B)</b>After registration, if a member who has not contributed decides to become active and actively contributes after becoming a valid member, and in the case of more than 2 breaks in contributions, membership will be reinstated only after making 5 contributions. Until 5 contributions are made, in the event of a break in contributions, the member will be considered invalid and cannot receive contributions. Special approval from the core team is required to reinstate membership after continuously making 5 contributions. In such cases, a 3-month lock-in period will also apply. (It is not necessary that an opportunity to complete 5 contributions comes within the 3-month lock-in period; however, after completing the 3-month lock-in period, it is mandatory to complete 5 contributions.)</p>
+
+<p style="font-size: 19px;"><b>(This rule is applicable from the time of establishment, with partial amendments.)</b></p>
+
+     <p style="font-size: 19px;">&emsp;&emsp;<b>7 (C)</b> Members who, for any reason, cannot contribute to the support should be given a chance permanently. If a new registration is done, a locking period is also applicable. Similarly, those who have not contributed so far and now wish to contribute, they will have a consecutive locking period of 05 contributions and a period of 03 months for them. The locking period has been extended to 90 days from July 13, 2022.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;&emsp;<b>7 (C.1) Note : </b>1 From January 2024, a locking period of 5 months will be implemented.
+
+</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment, with partial modifications.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>7 (D)</b>If a member skips assistance once in a year, they will be subjected to a 3-month locking period, and upon completing all the missed assistance during that period, they can be reinstated as valid members.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from October 12, 2023.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>7 (E)</b>If a member skips support more than once within a year, they will be required to complete a 5-month locking period and fulfill all the missed supports during that time to regain validity.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from 12/10/23.)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>7 (F)</b>If a member registers and leaves the contribution for 6 months or more, either after registration or after registration, then to become valid, they must complete a locking period of 5 months and fulfill all contributions during that period.</p>
+
+<p style="font-size: 19px;"><b>(This rule is applicable from 12/10/23.)</b></p>
+
+     <p style="font-size: 19px;">&emsp;&emsp;<b>7 (G)</b> In situations involving personal or family engagements, events, programs, etc., claim of inability to provide assistance will not be accepted. For this, a systematic assistance provision/ 90% opportunity-based assistance status after 10 assists rule will be applicable.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment.)</b></p>
+
+<p style="font-size: 19px;"><b>8)</b>  After at least 10 contributions, it will be assessed whether a member has not been able to contribute in at least 90% of the opportunities, i.e., if they have not contributed at least 9 out of 10 times. In such a case, their membership will neither be suspended nor will they be denied participation in contributions, provided there is a valid and satisfactory reason for not being able to contribute. Such exemptions will remain under consideration, and the percentage of contributions will be considered from 80% to 90%. This type of exemption will be considered up to 20, 50, or more contributions, and it will be subject to review. However, the 90% rule will be applicable only after the completion of 10 contributions until the next revision. Before reaching 10 contributions, the 90% rule for contributions will not be considered. Until then, all contributions will be mandatory.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment.)</b></p>
+
+<p style="font-size: 19px;"><b>Explanation of 90% contribution – If a member who has been associated with the team for a long time passes away, but due to some contributions is becoming invalid, then at that time, it will be observed that within the 2 years preceding the date of death, if 90% of the total contributions have been made, then considering it within the legal framework of 90% contribution, the contributions will be acknowledged.</b></p>
+
+      <p style="font-size: 19px;">&emsp;&emsp;<b>8 (A)</b> After completing 10 contributions upon becoming a member, in unavoidable circumstances, only 01 exemption can be given in a situation where it is not possible to make 01 contribution per year, provided that at least 10 contributions were made by the member before becoming a member.</p>
+
+<p style="font-size: 19px;"><b>(यह नियम स्थापना के समय से लागू है)</b></p>
+
+      <p style="font-size: 19px;">&emsp;&emsp;<b>8 (B)</b>  If a teacher/member was actively contributing previously and was a valid member, but did not contribute before the end of the contribution period (from the start date of contribution until the end of the contribution), and during the same period, unfortunately, the member passes away, then they will be considered eligible for benefits. This is because it will be assumed that they would have continued contributing if they were alive, similar to their past contributions. However, if the demise occurs after the completion of the contribution, the benefit of the current contribution exemption will not be granted. For example, if a member is admitted to the hospital on the day before or on the day of the start of contribution, or during the current contribution period, and unfortunately, the member passes away, then assistance can be provided to the family of the deceased teacher in that situation. Here, it will also be considered whether the current contribution was completed, and in that situation, it will be necessary to provide assistance. Assistance cannot be given in the case of the demise after the completion of the contribution.</p>
+<!-- <p style="font-size: 19px;"><b>यह नियम सिर्फ शिक्षक के स्वयं के अपरिहार्य हालात जैसे गम्भीर दुर्घटना/ बीमारी/अस्पताल में होने की स्थिति में ही मान्य होगा।</b> </p>
+
+<p style="font-size: 19px;">(बिंदु 8 (B) का नियम पूर्व में नही लागू था, पूर्व में बिंदु 8(B) को छोड़कर समस्त नियम और शर्तों के अधीनसहयोग करना था। सदस्यो की मांग और आवश्यकता को देखते हुए नियमो में शिथिलता प्रदान करने हेतु कोर टीम और जिला टीम की सहमति से बिंदु 8(B) को दिनाँक 16मई 2021 से जोड़कर प्रभावी किया जा रहा है।)</p>
+
+<p style="font-size: 19px;">इसके अलावा जहां तक सहयोग की बात है, तो कोई भी किसी का भी सहयोग कर सकता है। कोई किसी का सहयोगात्मक भाव से गूगल फार्म भर सकता है।</p>
+
+<p style="font-size: 19px;"><b>9)</b>  सुसाइड या किसी विवादित केस या अन्य केस जो संज्ञान लेने लायक हो, में कोर टीम के पास पड़ताल करके वस्तु स्थिति से अवगत होने के बाद निर्णय लेने का अधिकार होगा। आवश्यकता पड़ने पर वोटिंग या जिला इकाई या सदस्यों की राय भी ली जा सकेगी।</p>
+
+     <p style="font-size: 19px;">&emsp;&emsp;<b>9 (A)</b> वस्तुतः एक से अधिक शिक्षक/ सदस्य की मृत्यु होने पर उसकी मृत्यु की तिथि के क्रम में ही सहयोग किया जाएगा। किंतु यदि किन्ही दो या अधिक शिक्षकों की मृत्यु एक ही तिथि में होती है तो ऐसी स्थिति में उस शिक्षक का सहयोग पहले किया जाएगा जिसके सहयोग करने का प्रतिशत/एवरेज अधिक होगा। उसके बाद अन्य का। उपरोक्त प्रकरणों में किसी विशेष परिस्थिति जैसे स्थलीय निरीक्षण न हो पाना, कुछ तकनीकी कमी आदि मामलों में कोर टीम सहयोग के क्रम का निर्णय अपने विवेकानुसार ले सकेगी।</p>
+
+     <p style="font-size: 19px;">&emsp;&emsp;<b>9 (B)</b> नॉमिनी सम्बन्धी विवाद की स्थिति में प्रदेश / कोर टीम परीक्षणोपरांत निर्णय लेने और सहयोग करवाने हेतु स्वतंत्र होगी।</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से प्रभावी है।)</b></p>
+
+<p style="font-size: 19px;"><b>10)</b>  उपरोक्त नियमो से इतर हटकर न किसी का सहयोग किया जा सकेगा जा सकेगा न ही किसी का सहयोग रद्द किया जा सकेगा।</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से ही लागू है)</b></p>
+
+   <p style="font-size: 19px;">&emsp;&emsp;<b>10 (A)</b> अनुशासन हीनता, TSCT  विरोधी गतिबिधि या किसी प्रकार की साजिश करने वालो के विरुद्ध TSCT कोर टीम के पास निर्णय लेने का अधिकार होगा। कोई भी शिक्षक tsct के साथ साथ अन्य समान प्रकार के संघो/टीम में सदस्य के रुप में रह सकता है, किंतु किसी अन्य सम विषयक टीम के पदाधिकारी के रूप में कोई शिक्षक tsct का वैध मेम्बर प्रथम दृष्टया नही होगा (इस प्रकरण पर कोर टीम निर्णय लेने हेतु स्वतंत्र होगी)
+कोई भी व्यक्ति/ शिक्षक या अन्य टीचर्स सेल्फ केयर टीम / समिति के खिलाफ दुष्प्रचार या अफवाह फैलाता है, बिना सबूत या आंकड़े प्रस्तुत किये आरोप लगाता है तो टीम उसके विरुद्ध किसी भी प्रकार की कार्यवाही करने हेतु स्वतंत्र होगी।</p> -->
+
+```html
+<p style="font-size: 19px;"><b>This rule will be applicable only in the teacher's own unavoidable circumstances, such as a serious accident/illness/hospitalization.</b></p>
+
+<p style="font-size: 19px;">(Rule 8(B) was not applicable earlier, and all rules and conditions had to be followed excluding Rule 8(B). Considering the demand and need of the members, with the consent of the Core Team and District Team, Rule 8(B) will be added effective from May 16, 2021, relaxing the rules. )</p>
+
+<p style="font-size: 19px;">Apart from this, regarding assistance, anyone can assist anyone. Anyone can fill out the Google Form with an assistance-oriented attitude.</p>
+
+<p style="font-size: 19px;"><b>9)</b> In cases of suicide, disputed cases, or other cases that are noteworthy, the Core Team has the right to investigate and make a decision after being aware of the situation. Voting or taking the opinion of the district unit or members may be considered if necessary.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>9 (A)</b> In the event of the death of more than one teacher/member, assistance will be provided in chronological order of the date of their death. However, if two or more teachers' deaths occur on the same date, then in such a situation, the assistance of the teacher whose percentage/average of assistance is higher will be provided first, followed by others. In the above situations, where there is no local inspection, technical issues, etc., the Core Team may decide the order of assistance in their discretion.</p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>9 (B)</b> In the case of disputes related to nominations, the State/Core Team is independent to decide and facilitate assistance after examination.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment.)</b></p>
+
+<p style="font-size: 19px;"><b>10)</b> No assistance can be given or canceled, except as excluded from the above rules.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>10 (A)</b> The Core Team has the right to independently decide on any disciplinary action, anti-TSCT activities, or any kind of conspiracy against TSCT. Any teacher can be a member of TSCT as well as other similar groups/teams, but no teacher will be a valid member as the office-bearer of any other subject-specific team of TSCT in the first instance (The Core Team is independent to decide on this matter).</p>
+If any person/teacher or other teachers spread defamation or rumors against the Self-Care Team / Committee, accuses without evidence or figures, then the team has the right to take any action against them.</p>
+
+<!-- <p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से लागू है)</b> </p>
+
+     <p style="font-size: 19px;">&emsp;&emsp;<b>10 (B)</b> टेलीग्राम ग्रुप पर जानकारी हेतु समस्त सूचनाएं समय समय से प्रदान की जाती हैं। कोई सदस्य  टेलीग्राम ग्रुप से सूचनाएं नहीं प्राप्त करता तो वह स्वयं जिम्मेदार होगा। </p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से लागू है)</b></p>
+
+    <p style="font-size: 19px;">&emsp;&emsp;<b>10 (C)</b>  सदस्य हेल्पलाइन के माध्यम से अपना सवाल जवाब प्राप्त कर सकेंगे।</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से लागू है)</b></p>
+
+   <p style="font-size: 19px;">&emsp;&emsp;<b>10 (D)</b> समय और आवश्यकता को देखते हुए TSCT के किसी भी नियमो में कभी भी संशोधन/परिवर्तन किया जा सकेगा। </p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से लागू है)</b></p>
+
+   <p style="font-size: 19px;">&emsp;&emsp;<b>10 (E)</b> TSCT सहयोग सीधे दिवंगत परिवारों के नॉमिनी के खाते में करवाती है इसलिए किसी भी प्रकार की न्यायिक चुनौती देने का अधिकार किसी व्यक्ति या सदस्य  के पास नहीं होगा।</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(यह नियम स्थापना के समय से लागू है)</b></p>
+
+
+<p style="font-size: 19px;"><b>11)</b> TSCT किसी भी शिक्षक  को जबरन या दबाव देकर सदस्य नहीं बनाती है, सदस्यों को नियम स्वीकार करके ही सदस्य बनने का विकल्प प्रदान किया जाता है, स्वेच्छा से कोई भी सदस्य कभी भी खुद को अलग कर सकता है।</p>
+
+<p style="font-size: 19px;"><b>(यह नियम स्थापना के समय से लागू है)</b></p>
+
+<p style="font-size: 19px;"><b>12)</b> TSCT से जुड़ने हेतु कोई भी सदस्यता शुल्क नहीं है, कोई भी शिक्षक नियम एवं शर्तो से सहमत होकर निःशुल्क रजिस्ट्रेशन करके सदस्य बन सकता है और सहयोग कर सकता है।  सहयोग पाने हेतु उपरोक्त नियमो के तहत ही दावेदारी होगी। </p>
+
+<p style="font-size: 19px;"><b>(यह नियम स्थापना के समय से लागू है)</b></p>
+
+<p style="font-size: 19px;"><b>13)</b> TSCT का सदस्य बनने के साथ ही TSCT के टेलीग्राम ग्रुप से  जुड़ना अनिवार्य होगा क्युकी सभी आधिकारिक सूचनाएं टलिग्राम ग्रुप पर ही दी जाएगी।. सुविधाओं के दृष्टिगत सोशल मिडिया या अन्य माध्यमों से भी सूचनाएं देने का प्रयास किया जायेगा लेकिन यह किया जाना बाध्यकारी नहीं होगा। </p>
+
+<p style="font-size: 19px;"><b>(यह नियम स्थापना के समय से लागू है)</b></p>
+
+<p style="font-size: 19px;"><b>14)</b> सहयोग के दौरान कूटरचित/फर्जी  रसीद या नियमो के विपरीत कार्य करने वाले सदस्यों के बारे में कोर टीम निर्णय लेने की अधिकारी होगी। ऐसे सदस्यो की वैधानिकता भी समाप्त की जा सकेगी और लाभ से भी वंचित किया जा सकेगा।</p>
+
+<p style="font-size: 19px;"><b>(यह नियम स्थापना के समय से लागू है)</b></p>
+
+
+<p style="font-size: 19px;"><b>15)</b> व्यवस्था शुल्क
+
+यह अनिवार्य नहीं है. ऐच्छिक है।  जो सदस्य चाहे वो समिति के खाते में मात्र 50/- वार्षिक जमा करके निम्न लाभ प्राप्त कर सकते हैं।  व्यवस्था शुल्क का हिसाब समय समय पर समिति द्वारा दिया जायेगा।</p>
+
+<p style="font-size: 19px;">जिन सदस्यों ने व्यवस्था शुल्क समिति के खाते में जमा किया है उनको किसी दुर्घटना होने पर 1लाख या उससे अधिक का बिल लगने पर 25हजार से 50हजार* तक की मदद की जाएगी जोकि निम्नलिखित नियम एवं शर्तो के अधीन होगी -</p>
+<p style="font-size: 19px;"><b>नोट </b>- 2 नॉमिनी के मामले में प्रथम नॉमिनी को 75% तथा दूसरे को 25% दिए जाने का प्रावधान किया गया है।</p> -->
+
+```html
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>10 (B)</b> All information for the Telegram group is provided from time to time. If a member does not receive information from the Telegram group, they will be responsible for obtaining it themselves.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>10 (C)</b> Members can receive answers to their questions through the helpline.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>10 (D)</b> Considering time and necessity, any amendments/changes can be made to any rules of TSCT at any time.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;">&emsp;&emsp;<b>10 (E)</b> TSCT facilitates direct transfer of assistance to the accounts of deceased family nominees; therefore, no individual or member has the right to pose any legal challenge.</p>
+
+<p style="font-size: 19px;"><b>&emsp;&emsp;(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;"><b>11)</b> TSCT does not make any teacher a member by force or pressure. The option to become a member is provided to individuals by accepting the rules, and any member can voluntarily withdraw at any time.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;"><b>12)</b> There is no membership fee to join TSCT. Any teacher, by agreeing to the rules and conditions, can become a member by registering for free and contribute to the assistance. The application will be considered under the above rules for obtaining assistance.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;"><b>13)</b> Joining TSCT as a member is mandatory to connect with TSCT's Telegram group because all official information will be provided only on the Telegram group. Efforts will be made to provide information through social media or other means for convenience, but it will not be mandatory.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;"><b>14)</b> During assistance, the core team has the authority to make decisions about members involved in fraudulent activities or activities contrary to the rules. The validity of such members can be terminated, and they can be deprived of benefits.</p>
+
+<p style="font-size: 19px;"><b>(This rule is effective from the time of establishment)</b></p>
+
+<p style="font-size: 19px;"><b>15)</b> Administration Fee
+
+This is not mandatory. It is optional. Members who wish can deposit an annual amount of only 50/- in the committee's account and receive the following benefits. The administration fee will be accounted for by the committee from time to time.
+
+Members who have deposited the administration fee in the committee's account will be eligible for assistance ranging from 25,000 to 50,000* in case of an accident resulting in a bill of 1 lakh or more. This will be subject to the following rules and conditions -
+
+<b>Note:</b> In the case of 2 nominees, the provision has been made to give 75% to the first nominee and 25% to the second.
+</p>
+
+<!-- <p style="font-size: 19px;"><b>दुर्घटना में इलाज की शुरुआत 15मई2021 से की जा रही है जिसके नियम व शर्त निम्न है-</b></p>
+
+<p style="font-size:19px;"><b>नोट- दुर्घटना में इलाज हेतु 15 दिन का लॉकिंग पीरियड 15 जनवरी 2023 से लागू किया जा रहा है मतलब शुल्क जमा होने के 15 दिन बाद ही होने वाली दुर्घटना पर लाभ दिया जाएगा। साथ ही मदद अतिरिक्त लाभ के तौर पर दी जा रही है जिसका सहयोग और राशि टीम के पास उपलब्ध धन पर निर्भर करेगा।</b></p>
+
+ <p style="font-size: 19px;"><b>1) </b>ये सुविधा TSCT के वैधानिक सदस्य को ही मिलेगी। लाभ प्राप्त करने हेतु सदस्य द्वारा व्यवस्था शुल्क जमा करने की तिथि से 1वर्ष पूरा होने तक लागू रहेगी, उसके पश्चात पुनः वार्षिक आधार पर जमा करना होगा।</p>
+ <p style="font-size: 19px;"><b>2) </b>ये सुविधा सिर्फ व्यवस्था शुल्क देने वाले को ही मिलेगी।</p>
+ <p style="font-size: 19px;"><b>3) </b>इस व्यवस्था के लिए कुल व्यवस्था शुल्क की 50% राशि ही उपयोग की जाएगी।</p>
+ <p style="font-size: 19px;"><b>4) </b>यह लाभ उन्हें ही मिलेगा जिनका  इलाज का खर्च 1 लाख से अधिक का होगा।</p>
+ <p style="font-size: 19px;"><b>5) </b>यह राशि तुरंत न दे कर स्थलीय निरीक्षण के बाद ही दी जाएगी। कैशलेस या हास्पिटैलिटी के समय ही यह खर्च दिया जाय यह जरूरी नही होगा, समय से सहयोग करने का प्रयास रहेगा लेकिन समस्त औपचारिकताओं की जांच करने के उपरांत ही सहयोग होगा।</p>
+ <p style="font-size: 19px;"><b>6) </b>कोशिस की जाएगी कि राशि सीधे होस्पिटल के खाते में दी जाए। यदि उस समय न सम्भव हुआ तो समय और परिस्थिति के हिसाब से कोर टीम निर्णय लेगी।</p>
+ <p style="font-size: 19px;"><b>7) </b>यह सुविधा सिर्फ दुर्घटना में ही मिलेगी। बीमारी आदि के इलाज पर नही(भविष्य में बीमारी को कवर करने की कोशिस की जाएगी)।</p>
+ <p style="font-size: 19px;"><b>8) </b>संसाधनों को देखते हुए और इलाज की गम्भीरता तथा उस पर  खर्च को देखते हुए मिनिमम 25000 औऱ अधिकतम 50,000 की ही मदद अभी की जाएगी संसाधन बढ़ने पर ये राशि 1लाख तक बढ़ाई जा सकेगी।</p>
+
+<p style="font-size: 19px;"><b>9) </b>दुर्घटना के मामले में अगर किसी शिक्षक ने इलाज में खर्च की गई राशि किसी इंसोरेंस कंपनी से प्राप्त कर ली है तो इस स्थिति में टीम अपेक्षा करती है की टीम से लाभ हेतु आवेदन नही किया जाए ताकि उक्त धन किसी और के काम आ सके,फिर भी अगर आवेदन किया जाता है तो टीम द्वारा अधिकतम 25000 की ही राशि दी जाएगी।</p>
+<p style="font-size: 19px;"><b>नोट – दुर्घटना बीमा अधिकार नहीं है बल्कि टीम द्वारा सप्रेम भेंट हैं जो की टीम के पास उपलब्ध धन पर निर्भर करेगा। </b></p>
+<p style="font-size: 19px;"><b>इसके अतिरिक्त समिति सभी सदस्यों को व्यवस्था शुल्क हेतु आयी राशि से निम्नलिखित सुविधाएं प्रदान करेगी-</b></p>
+<p style="font-size: 19px;"><b>1) </b>वेबसाइट के निर्माण और संचालन में</p>
+<p style="font-size: 19px;"><b>2) </b>ऐप बनवाने और संचालन में</p>
+<p style="font-size: 19px;"><b>3) </b>sms सुविधा उपलब्ध कराने में (  TRAI से अनुमति मिलते ही यह व्यवस्था शुरू हो जाएगी )।</p>
+<p style="font-size: 19px;"><b>4) </b>एक आफिस और एक टेक्निकल सपोर्ट रखने में जो आपको तकनीकी मदद देगा।</p>
+<p style="font-size: 19px;"><b>5) </b>स्थलीय निरीक्षण करने में।</p>
+<p style="font-size: 19px;"><b>6) </b>tsct से ज्यादा से ज्यादा शिक्षकों को जोड़ने के अभियान में।</p>
+<p style="font-size: 19px;"><b>7) </b>समय समय पर नई तकनीकी का इस्तेमाल में ताकि प्रक्रिया पारदर्शी के साथ साथ आसान बन सके।</p>
+
+<p style="font-size: 19px;"><b>(उपरोक्त नियमो में उनके लागू होने की स्थिति के बारे में हर क्लॉज में अवगत कराया गया है, अभी तक केवल 1नियम में समय- समय और आवश्यकतानुसार परिवर्तन हुआ है- लॉक इन पीरियड, इसके अतिरिक्त 1 बिंदु नया जोड़ा गया है 8(B-2) शेष नियम स्थापना के समय से आज भी लागू और यथावत हैं।</b></p>
+
+<p style="font-size: 19px;"><b>(भविष्य में जरूरतों को देखते हुए नियमो में परिवर्तन का अधिकार टीचर्स सेल्फ केयर टीम के पास होगा, विवादास्पद स्थिति में कोर टीम के पास निर्णय लेने का अधिकार सुरक्षित होगा।)</b></p> -->
+
+<p style="font-size: 19px;"><b>The commencement of treatment for accidents will be from May 15, 2021, and the rules and conditions are as follows:</b></p>
+
+<p style="font-size:19px;"><b>Note: A locking period of 15 days is applicable from January 15, 2023, for the treatment of accidents. This means that assistance will be provided only for accidents occurring 15 days after the deposit of the fee. Additional assistance is provided as an extra benefit, dependent on the funds available to the team.</b></p>
+
+<p style="font-size: 19px;"><b>1) </b>This facility will be available only to valid members of TSCT. To avail the benefit, the member must deposit the administration fee for a period of 1 year from the date of deposit, and thereafter, it must be deposited annually.</p>
+<p style="font-size: 19px;"><b>2) </b>This facility is available only to those who pay the administration fee.</p>
+<p style="font-size: 19px;"><b>3) </b>Only 50% of the total administration fee will be used for this facility.</p>
+<p style="font-size: 19px;"><b>4) </b>This benefit will only be available to those whose medical expenses exceed 1 lakh.</p>
+<p style="font-size: 19px;"><b>5) </b>This amount will be provided only after on-site inspection. It is not necessary to incur expenses during cashless or hospitalization times, efforts will be made to assist in a timely manner, but assistance will be provided only after verifying all formalities.</p>
+<p style="font-size: 19px;"><b>6) </b>Efforts will be made to transfer the amount directly to the hospital account. If not possible at that time, the Core Team will decide based on time and circumstances.</p>
+<p style="font-size: 19px;"><b>7) </b>This facility is available only in the case of accidents, not for the treatment of diseases, etc. (Efforts will be made to cover illnesses in the future).</p>
+<p style="font-size: 19px;"><b>8) </b>Considering resources and the severity of the treatment and the cost involved, a minimum of 25,000 and a maximum of 50,000 assistance will be provided initially. This amount can be increased up to 1 lakh depending on the increase in resources.</p>
+
+<p style="font-size: 19px;"><b>9) </b>In the case of accidents, if a teacher has received the expense amount from any insurance company, the team expects that an application for assistance will not be made to the team so that the funds can be used for other purposes. However, if an application is submitted, a maximum of 25,000 will be provided by the team.</p>
+
+<p style="font-size: 19px;"><b>Note: Accidental insurance is not mandatory, and the team provides a lump sum benefit based on the available funds.</b></p>
+
+<p style="font-size: 19px;"><b>In addition, the committee will provide the following facilities with the amount received for the administration fee from all members:</b></p>
+
+<p style="font-size: 19px;"><b>1) </b>In the construction and operation of the website.</p>
+<p style="font-size: 19px;"><b>2) </b>In creating and operating the app.</p>
+<p style="font-size: 19px;"><b>3) </b>In providing SMS service (this service will start as soon as permission is obtained from TRAI).</p>
+<p style="font-size: 19px;"><b>4) </b>In maintaining an office and technical support that will provide you with technical assistance.</p>
+<p style="font-size: 19px;"><b>5) </b>In on-site inspections.</p>
+<p style="font-size: 19px;"><b>6) </b>In the campaign to connect as many teachers as possible.</p>
+<p style="font-size: 19px;"><b>7) </b>Using new technology in a timely manner so that the process can be transparent and easy.</p>
+
+<p style="font-size: 19px;"><b>(Each clause has been explained in each clause about its applicability in the existing rules. Only one rule has been modified as per the time - Lock-In Period. In addition, a new point has been added - 8(B-2). The remaining rules are still in effect since their establishment.</b></p>
+
+<p style="font-size: 19px;"><b>(In the future, teachers' self-care team will have the right to make changes in the rules based on needs. In case of a dispute, the Core Team will have the authority to make decisions.)</b></p>
+
+
+<!-- <h3 style="text-align: center;color: #337AB7">किसी भी निर्णय की स्थिति में वेबसाइट पर अपलोड नियमावली की प्रति ही मान्य होगी।</h3><p style="font-size: 19px;"></p>
+
+<p style="font-size: 19px;"><b>Note : </b>सदस्यों द्वारा अपना सहयोग सीधा मृतक शिक्षक/ शिक्षिका के नॉमिनी को दिया जाता है अतः आपके द्वारा दिए गए सहयोग के बदले सहयोग प्राप्त करने का कोई कानूनी अधिकार नही होगा, यह पूरी तरह सदस्यों की मर्जी पर निर्भर रहेगा, टीम द्वारा अपील करने पर सहयोग कम ज्यादा आने पर या ना आने की दशा में टीम जिम्मेदार नहीं होगी। क्योंकि टीम सिर्फ सहयोग की अपील करती है है अतः किसी तरह की देनदारी के लिए कानूनी अधिकार मान्य नहीं होगा।
+कोई तथ्य छुपा कर या बिना पात्रता पूरी किए जुड़ जाता है और सहयोग कर देता है तो उसका दावा मान्य नहीं होगा।</p>
+
+<p style="font-size: 19px;"><b>अगर TSCT से जुड़ा कोई सदस्य किसी अन्य सम विषयक टीम का प्रचार प्रसार करता है तो उसकी सदस्यता समाप्त कर दी जाएगी। टीम के किसी भी पदाधिकारी के साथ अभद्रता, डराने, धमकाने वाले की सदस्यता समाप्त कर दी जाएगी</b></p>
+<h4>आपका अनुज</h4>
+<h4>विवेकानंद</h4>
+<h4>संस्थापक एवम अध्यक्ष</h4>
+<h4>टीचर्स सेल्फ केयर टीम</h4>
+<h4>उत्तर प्रदेश</h4>
+
+<h1 style="text-align: center;color: red">🙏 TSCT-आज का सहयोग, कल का सहारा 🙏</h1> -->
+
+<h3 style="text-align: center;color: #337AB7">In any decision-making situation, the uploaded rules on the website will be considered valid.</h3>
+
+<p style="font-size: 19px;"></p>
+
+<p style="font-size: 19px;"><b>Note:</b> Members contribute directly to the nominated deceased teacher's nominee. Therefore, there will be no legal right to receive assistance in exchange for the assistance given by you. It entirely depends on the discretion of the members. The team will not be responsible in case of appeals for less or more assistance, or in case of no appeal. The team is not responsible for any legal rights for any form of donation as the team only appeals for assistance.</p>
+
+<p style="font-size: 19px;">Any claim made by hiding facts, without completing eligibility, or by connecting without eligibility will not be considered valid.</p>
+
+<p style="font-size: 19px;"><b>If any member associated with TSCT promotes another team on a similar subject, their membership will be terminated. Membership will be terminated for any member showing indecency, intimidation, or threatening behavior towards any team official.</b></p>
+
+<h4>Your sincerely,</h4>
+<h4>Vivekanand</h4>
+<h4>Founder and President</h4>
+<h4>Teacher's Self-Care Team</h4>
+<h4>Uttar Pradesh</h4>
+
+<h1 style="text-align: center;color: red">🙏 TSCT - Today's Support, Tomorrow's Shelter 🙏</h1>
+
+
+
+</div>
+</div>
+	
+<a href="https://api.whatsapp.com/send?phone=+917007087337&text=Hello TSCT" class="btn-whatsapp-pulse" target="_blank" style="z-index:1000">
+	<i class="fa fa-whatsapp" style="font-size:48px;color:white"></i>
+</a>
+
+<a href="tel:7007087337" class="btn-whatsapp-pulse btn-whatsapp-pulse-border" target="_blank" style="z-index:1000">
+	<i class="fa fa-phone"></i>
+</a>
+
+<footer class="footer" style="background-color: #3F3F97;">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-5">
+                                <div class="footer-text one">
+                                    <h3>RECENT Activity</h3>
+                                    <ul ><li><a href="privacy_policy.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Privacy Policy</a></li>
+                                        <li><a href="niyamwali.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Niyamawali</a></li>
+                                        <li><a href="teacher_list.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Teachers List</a></li>
+                                        <li><a href="contact.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-3">
+                                <div class="footer-text two">
+                                    <h3>USEFUL LINKS</h3>
+                                    <ul>
+                                        <li><a href="gallery.html" style="color:white;">Gallery</a></li>
+                                        <li><a href="about.html" style="color:white;">About Us</a></li>
+                                    <li><a href="user/login.html" style="color:white;">District Level Login</a></li>
+                                        <li><a href="register.html" style="color:white;">Register</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="footer-text one">
+                                    <h3>CONTACT US</h3>
+                                    <ul>
+                                        <!--<li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL 2147, USA</a></li>-->
+                                        <li><a href="#" style="color:white;"><i class="material-icons" style="color:white;">email</i>tsctcare@gmail.com</a></li>
+                                        <li><a href="#" style="color:white;"><i class="material-icons" style="color:white;">call</i>Helpline No.- 7007087337</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p style="background-color: #311B92;">Copyright @ 2021 <a href="https://tsctup.com">TSCT</a> | All Rights Reserved </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/animationCounter.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/active.js"></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+
+</html>
