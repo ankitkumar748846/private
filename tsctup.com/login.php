@@ -1,38 +1,37 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ESCT UP | Engineers Self Care Team - Uttar Pradesh | ESCTUP">
-    <title>ESCT UP | Engineers Self Care Team - Uttar Pradesh | ESCTUP</title>
-    <link rel="icon" type="image/x-icon" href="../img/main-logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565453290804249"-->
-    <!-- crossorigin="anonymous"></script>-->
+    <title>TSCT</title>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link href="css/addcss.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../contact.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link href="../css/addcss.css" rel="stylesheet" media="all">
+    <!-- <link href="css/sb-admin-2.min.css" rel="stylesheet"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	
-	<style>
-.btn{
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+  <style>
+ .btn{
     border:none;padding:9px 33px;text-transform:capitalize;border-radius:30px;cursor:pointer;color:#fff;display:inline-block;font-size:15px;box-shadow:0px 7px 21px 0px rgba(0,0,0,0.12);background-image:linear-gradient(to right, #66D17C 0%, #66D17C 51%, #66D17C 100%);background-position:right;background-size:100%;
 }
 /*.btn:hover i{left:0px}.btn:hover{background-position:left}*/
 /*.btn.focus,.btn:focus{outline:0;box-shadow:none}*/
-	
+    
     .my-form {
         color: #305896;
     }
@@ -111,9 +110,51 @@ function clear_tc_id(){
     tcid.innerHTML="";
 }
 </script>
+
+
+
+
+
+<script>
+      function onlyNumber(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)){
+                    return false;
+                }
+            return true;
+        }
+        
+    // function mobileLength(e){
+        
+    //         var length=e.length;
+    //     if (length < 10 || length > 10) {
+    //             alert("Please Enter 10 Digit Number:");
+    //             return false;
+    //         }
+    // }
+
+    function hideshowpassword(){
+        var x=document.getElementById("password");
+        if(x.type=='text'){
+            x.type='password';
+document.getElementById('togglePassword').classList.remove('fa-eye');
+            document.getElementById('togglePassword').classList.add('fa-eye-slash');            
+        }else{
+            x.type='text';
+document.getElementById('togglePassword').classList.remove('fa-eye-slash');
+            document.getElementById('togglePassword').classList.add('fa-eye');
+        }
+    }        
+  </script>
+
+
+
 </head>
 <body>
     <div class="wrapper">
+
+
+
 <style>
 * {box-sizing: border-box}
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -257,10 +298,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
    <div style="overflow: hidden;">
 <div class="row" style="padding-top: 4px;padding-bottom: 0px;padding-left: 5px; background-color:#3F3F97; text-align:center;">
     <div class="col-lg-2 col-sm-5 col-xs-12" >
-        <p style="color:white;padding-top: 5px;" class="tophead1">Helpline No.- 7807629154</p>
+        <p style="color:white;padding-top: 5px;" class="tophead1">Helpline No.- 7007087337</p>
     </div>
     <div class="col-lg-5 col-sm-7 col-xs-12">
-        <p style="color:white;padding-top: 5px;" class="tophead2">Registration Number: ALL / 04988 / 2020-21 Engineers Self-Care committee</p>
+        <p style="color:white;padding-top: 5px;" class="tophead2">पंजीकरण संख्याा :- ALL / 04988/2020-21 टीचर्स सेल्फ केयर समिति</p>
     </div>
     <div class="col-lg-3 col-sm-6 col-xs-6">
         <a href="https://www.facebook.com/tsctup/"><i style="color:white; margin-top:5px;font-size:25px;" class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -269,84 +310,95 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <a href="https://t.me/joinchat/UZcQ8K8dM-FfyRIz"><i style="color:white; margin-top:5px; margin-left:20px;font-size:25px;" class="fa fa-telegram" aria-hidden="true"></i></a>
     </div>
     <div class="col-lg-2 col-sm-6 col-xs-6 side_login_button" style="padding-top: 2px;">
-                                    <a href="teacher/login.html" class="btn" style="background-color: #673AB7;">Login</a>
+                                    <a href="https://tsctup.com/teacher/login.php" class="btn" style="background-color: #673AB7;">Login</a>
                                 </div>
 </div>
 <div class="row" style="padding: 10px;overflow: hidden;">
     <div class="col-lg-2 col-sm-2 col-xs-3" style="text-align:right;z-index:5;">
-        <a href=""><img src="img/main-logo.png" alt="" class="logo_img" /></a>
+        <a href="https://tsctup.com/"><img src="https://tsctup.com/img/main-logo.png" alt="" class="logo_img" /></a>
     </div>
     <div class="col-lg-6 col-sm-7 col-xs-9" style="z-index:5;">
-        <a href="" class="head1" >Engineers Self Care Team – Uttar Pradesh</a>
-        <h3 class="head2">Today's support, tomorrow's companion.</h3>
+        <a href="https://tsctup.com/" class="head1" >Teachers Self Care Team – Uttar Pradesh</a>
+        <h3 class="head2">आज का सहयोग कल का सहारा</h3>
     </div>
         <div class="col-lg-4 col-sm-3 reg_button" style="margin-top: 10px;">
         
-        <a href="register.html" class="btn btn-success">Registration</a> 
+        <a href="https://tsctup.com/register.php" class="btn btn-success">Registration</a> 
          
     </div>
     </div>
 <div class="row" style="overflow: hidden;">
     <div class="navbar">
         
-            <a class="navlink a1"  href="index.html" >HOME</a>
-            <a class="navlink a2"  href="about.html" >ABOUT US</a>
-            <a class="navlink a3"  href="teacher_list.html">TEACHER'S LIST</a>
-            <a class="navlink a4"  href="sahayogsuchi_list.html">ASSISTANCE LIST</a>
-            <a class="navlink a5"  href="vyawasthashulk_list.html">ARRANGEMENT LIST</a>
-            <a class="navlink a6"  href="niyamwali.html">RULES</a>
-            <a class="navlink a7"  href="blog.html">BLOG</a>
-            <a class="navlink a8"  href="contact.html">CONTACT</a>
+            <a class="navlink a1"  href="https://tsctup.com" >HOME</a>
+            <a class="navlink a2"  href="https://tsctup.com/about.php" >ABOUT US</a>
+            <a class="navlink a3"  href="https://tsctup.com/teacher_list.php">TEACHER'S LIST</a>
+            <a class="navlink a4"  href="https://tsctup.com/sahayogsuchi_list.php">SAHYOG LIST</a>
+            <a class="navlink a5"  href="https://tsctup.com/vyawasthashulk_list.php">VYAWASTHA LIST</a>
+            <a class="navlink a6"  href="https://tsctup.com/niyamwali.php">NIYAMAWALI</a>
+            <a class="navlink a7"  href="https://tsctup.com/blog.php">BLOG</a>
+            <a class="navlink a8"  href="https://tsctup.com/contact.php">CONTACT</a>
         
     </div>
 </div>
-</div>		
-            
-            <div class="container">
-                <div class="row" style="text-align:center;">
-                    <h2 style="color: red;">Engineers Self-Care Team - Uttar Pradesh</h2><br>
-                    <div class="col-md-12" style="text-align:center;">
-                       <h2 style="color: red;">Let's find out what Engineers Self-Care Team (ESCT) is all about</h2>
-                            <p style="font-size: 20px;">ESCT (Engineers Self-Care Team) has been created for providing financial assistance to the families of teachers who are part of the group and experience untimely demise. It is designed by teachers, for teachers, and is dedicated to teachers.</p><br/>
-							<h2 style="color: red;">Goal of ESCT</h2>
-                            <p style="font-size: 20px;">The goal of ESCT is for all teachers in the state to be associated with this team, and in the event of the untimely demise of any member of the team, financial assistance is provided to their family</p><br/>
-							<h2 style="color: red;">Who can join ESCT?</h2>
-                            <p style="font-size: 20px;">Currently, teachers from primary and secondary education can join ESCT.</p><br/>
-                       
-                            <h2 style="color: red;">How to join ESCT?</h2>
-                      <p style="font-weight:bold;font-size: 20px;color: #3F3F97;">To join ESCT, visit the website https://tsctup.com, complete the registration, and make sure to join the ESCT Telegram group. All updates and information will be shared through the Telegram group.</p><br/>
+</div>   
+        
 
-							<p style="font-size: 20px;">After registering with ESCT, it is essential to keep an eye on updates in the group. It is mandatory to provide assistance to the family of a fellow member in case of their demise and fill out the form. Support will be granted only upon contributing. Rules and discipline are paramount.
-                            </p><br/>                        
-<p><span style="text-align: center;"><font color="#10285d" face="Montserrat, sans-serif"><span style="font-size: 20px;">Achievement of ESCT - Engineer Self-Care Team has provided assistance to the families of 143 teachers, exceeding 38 crores 51 lakhs 67 thousand (until December 2023). This is the first time in the history of teachers.</span></font></span><br></p>
-							<p style="font-size: 20px;">Membership Fee - No membership fee is required to join ESCT.
-                            </p> <br/> 
-							<p style="font-size: 20px;">Arrangement Fee - An arrangement fee of 50 rupees is determined, which is collected online into the committee's account. The committee will keep an account of it from time to time, and various arrangements will be provided to the members in connection with the arrangement fee. Failure to deposit the arrangement fee does not lead to the termination of someone's membership.
 
-                          </p><br/>
+    
+  <div class="container" style="text-align: center;">
+    <div class="row justify-content-center" style="margin-left:1px;margin-right: 1px;">
+        <form class="user" method="post">
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4" style="border: 1px double black; padding: 20px; box-shadow: 5px 10px #d3d3d3;border-radius: 25px;">
+        <div class="row">
+          <div class="col-lg-12">
+          <div class="form-group">
+            <input type="number" class="form-control form-control-user" id="mobile" name="mobile" placeholder="Enter Mobile No" onkeypress="return onlyNumber(event)"/>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+          <div class="form-group">
+                            <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Enter password"/><i class="fa fa-eye-slash" id="togglePassword" style="margin-right: 3px; margin-top: -28px; cursor: pointer; float: right;" onclick="hideshowpassword();"></i>
+                        </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+          <button type="submit" class="btn btn-danger btn-user btn-block" id="loginSubmit" name="loginSubmit">
+                      Login
+                    </button>
+        </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+          <div class="col-lg-12">
+          <a href="../forgot/forgot.php" class="btn btn-primary btn-block">Forgot Password?</a>
+        </div>
+        </div>
+        
+      </div>
+      </form>
+    </div>
+  </div>
+
+      
+
+<div class="form-group" style="text-align: center;">
+    <br><br>
+                        <label class="text-danger">
+                                                    </label>
                     </div>
-                </div>
-            </div>
-        
-		 <section class="donate_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 for-padding">
-                            <h2 style="color: red; margin-top: 0px;">ESCT Helpline</h2><br>
-                            <h3>For any issue, first, contact your district team. If necessary, you can call this number between 10 am to 1 pm - 7807629154.</h3>
-							
-					</div>			
-                </div>
-            </div>
-        </section>
-        <div class="clear"></div>
-        
-	
-<a href="https://api.whatsapp.com/send?phone=+917807629154&text=Hello ESCT" class="btn-whatsapp-pulse" target="_blank" style="z-index:1000">
+
+
+
+<a href="https://api.whatsapp.com/send?phone=+917007087337&text=Hello TSCT" class="btn-whatsapp-pulse" target="_blank" style="z-index:1000">
 	<i class="fa fa-whatsapp" style="font-size:48px;color:white"></i>
 </a>
 
-<a href="tel:7807629154" class="btn-whatsapp-pulse btn-whatsapp-pulse-border" target="_blank" style="z-index:1000">
+<a href="tel:7007087337" class="btn-whatsapp-pulse btn-whatsapp-pulse-border" target="_blank" style="z-index:1000">
 	<i class="fa fa-phone"></i>
 </a>
 
@@ -358,10 +410,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
                             <div class="col-md-4 col-sm-5">
                                 <div class="footer-text one">
                                     <h3>RECENT Activity</h3>
-                                    <ul ><li><a href="privacy_policy.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Privacy Policy</a></li>
-                                        <li><a href="niyamwali.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Niyamawali</a></li>
-                                        <li><a href="teacher_list.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Engineers List</a></li>
-                                        <li><a href="contact.html" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Contact Us</a></li>
+                                    <ul ><li><a href="https://tsctup.com/privacy_policy.php" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Privacy Policy</a></li>
+                                        <li><a href="https://tsctup.com/niyamwali.php" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Niyamawali</a></li>
+                                        <li><a href="https://tsctup.com/teacher_list.php" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Teachers List</a></li>
+                                        <li><a href="https://tsctup.com/contact.php" style="color:white;"><i class="material-icons" style="color:white;">keyboard_arrow_right</i> Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -369,10 +421,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
                                 <div class="footer-text two">
                                     <h3>USEFUL LINKS</h3>
                                     <ul>
-                                        <li><a href="gallery.html" style="color:white;">Gallery</a></li>
-                                        <li><a href="about.html" style="color:white;">About Us</a></li>
-                                    <li><a href="user/login.html" style="color:white;">District Level Login</a></li>
-                                        <li><a href="register.html" style="color:white;">Register</a></li>
+                                        <li><a href="https://tsctup.com/gallery.php" style="color:white;">Gallery</a></li>
+                                        <li><a href="https://tsctup.com/about.php" style="color:white;">About Us</a></li>
+                                    <li><a href="https://tsctup.com/user/login.php" style="color:white;">District Level Login</a></li>
+                                        <li><a href="https://tsctup.com/register.php" style="color:white;">Register</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -382,7 +434,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                                     <ul>
                                         <!--<li><a href="#"><i class="material-icons">location_on</i>1 Street, derby, FL 2147, USA</a></li>-->
                                         <li><a href="#" style="color:white;"><i class="material-icons" style="color:white;">email</i>tsctcare@gmail.com</a></li>
-                                        <li><a href="#" style="color:white;"><i class="material-icons" style="color:white;">call</i>Helpline No.- 7807629154</a></li>
+                                        <li><a href="#" style="color:white;"><i class="material-icons" style="color:white;">call</i>Helpline No.- 7007087337</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -391,7 +443,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 </div>
             </div>
             <div class="footer_bottom">
-                <p style="background-color: #311B92;">Copyright @ 2021 <a href="https://tsctup.com">ESCT</a> | All Rights Reserved </p>
+                <p style="background-color: #311B92;">Copyright @ 2021 <a href="https://tsctup.com">TSCT</a> | All Rights Reserved </p>
             </div>
         </footer>
     </div>
@@ -416,6 +468,52 @@ body {font-family: Arial, Helvetica, sans-serif;}
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
+</body>
+
+</html>    </div>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/animationCounter.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/active.js"></script>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script>
+        function hideshowpassword(){
+        var x=document.getElementById("password");
+        if(x.type=='text'){
+            x.type='password';
+document.getElementById('togglePassword').classList.remove('fa-eye');
+            document.getElementById('togglePassword').classList.add('fa-eye-slash');            
+        }else{
+            x.type='text';
+document.getElementById('togglePassword').classList.remove('fa-eye-slash');
+            document.getElementById('togglePassword').classList.add('fa-eye');
+        }
+    }
+    </script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+  <!-- Core plugin JavaScript-->
+  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+
+  <!-- Custom scripts for all pages-->
+  <!-- <script src="js/sb-admin-2.min.js"></script> -->
 </body>
 
 </html>
