@@ -7,6 +7,7 @@
     <meta name="description" content="TSCT UP | Teachers Self Care Team - Uttar Pradesh | TSCTUP">
     <title>TSCT UP | Teachers Self Care Team - Uttar Pradesh | TSCTUP</title>
     <link rel="icon" type="image/x-icon" href="../img/main-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1565453290804249"-->
     <!-- crossorigin="anonymous"></script>-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -101,7 +102,7 @@
    
 function get_tc_id(){
     var tcid=document.getElementById("tc_id");
-    tcid.innerHTML="<label>यदि हां तो tc id हो तो लिखें।</label><input type='number' id='tcid' name='tcid' class='form-control' /><br><label>पूर्व में किये गए रजिस्ट्रेशन की तिथि</label><input type='datetime-local' id='registered_date' name='registered_date' class='form-control' />";
+    tcid.innerHTML="<label>If yes, then please write your TC ID.</label><input type='number' id='tcid' name='tcid' class='form-control' /><br><label>The date of previous registration</label><input type='datetime-local' id='registered_date' name='registered_date' class='form-control' />";
 }
 
 function clear_tc_id(){
@@ -258,7 +259,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <p style="color:white;padding-top: 5px;" class="tophead1">Helpline No.- 7807629154</p>
     </div>
     <div class="col-lg-5 col-sm-7 col-xs-12">
-        <p style="color:white;padding-top: 5px;" class="tophead2">पंजीकरण संख्याा :- ALL / 04988/2020-21 टीचर्स सेल्फ केयर समिति</p>
+        <p style="color:white;padding-top: 5px;" class="tophead2">Registration Number:XX-XX-XX-XX Teacher's Self-Care Committee</p>
     </div>
     <div class="col-lg-3 col-sm-6 col-xs-6">
         <a href="https://www.facebook.com/tsctup/"><i style="color:white; margin-top:5px;font-size:25px;" class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -275,8 +276,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <a href="/"><img src="/img/main-logo.png" alt="" class="logo_img" /></a>
     </div>
     <div class="col-lg-6 col-sm-7 col-xs-9" style="z-index:5;">
-        <a href="/" class="head1" >Teachers Self Care Team – Uttar Pradesh</a>
-        <h3 class="head2">आज का सहयोग कल का सहारा</h3>
+        <a href="https://tsctup.com/" class="head1" >Teachers Self Care Team – Uttar Pradesh</a>
+        <h3 class="head2">Today's support is tomorrow's help</h3>
     </div>
         <div class="col-lg-4 col-sm-3 reg_button" style="margin-top: 10px;">
         
@@ -304,20 +305,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         
                         
             <p class="text-center bg-danger" >
-                नोट- जिन शिक्षकों ने पूर्व में रजिस्ट्रेशन कर लिया है, उन्हें नए रजिस्ट्रेशन की आवश्यकता नही है, लॉगिन करके अपना विवरण जोड़ या परिवर्तित कर सकते हैं।
+                Note: Teachers who have previously registered do not need to register again. They can log in to add or modify their details.
 
                 
                 </p><br/><br/>
 
                         
             <div class="form-group">
-                <label>Ehrms कोड *</label>
+                <label>EHRMS code *</label>
                 <input type="text" class="form-control" name="ehrms_code" id="ehrms_code" required />
 
                             </div>
 
             <div class="form-group">
-                <label>पासवर्ड बनाये *</label>
+                <label>Create a password *</label>
                 <input type="password" class="form-control" name="password" id="password" style="display: inline;" required />
   <i class="fa fa-eye-slash" onclick="hideshowpassword();" id="togglePassword" style="    margin-left: -31px;
     cursor: pointer;
@@ -326,7 +327,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
                             </div>
             <div class="form-group">
-                <label>कन्फर्म पासवर्ड *</label>
+                <label>Confirm password *</label>
                 <input type="password" class="form-control" name="confirm_password" id="confirm_password" style="display: inline;" required />
  <i class="fa fa-eye-slash" onclick="hideshowpassword1();" id="toggleconfirmpassword" style="    margin-left: -31px;
     cursor: pointer;
@@ -334,19 +335,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
     position: absolute;"></i>
                             </div>
             <div class="form-group">
-                <label>नाम *</label>
+                <label>Name *</label>
                 <input type="text" class="form-control" name="name" id="name" required />
             </div>
              <div class="form-group">
-                <label>डेट ऑफ बर्थ *</label>
+                <label>Date of Birth *</label>
                 <input type="date" class="form-control" name="dob" id="dob" required />
             </div>
             <div class="form-group">
-                <label>ईमेल *</label>
+                <label>Email *</label>
                 <input type="email" class="form-control" required name="email" id="email" />
             </div>
             <div class="form-group">
-                <label> जेंडर *</label>
+                <label> Gender *</label>
                 <select class="form-control" name="gender" id="gender" required>
                     <option value="" disabled selected >Select Gender</option>
                     <option value="Male">MALE</option>
@@ -369,7 +370,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 </select>
             </div>
             <div class="form-group">
-                <label>डिपार्टमेंट *</label>
+                <label>Department *</label>
                 <select class="form-control" name="department" id="department" required>
                     <option value="" disabled selected>Select Department</option>
                     
@@ -387,7 +388,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 </select>
             </div>
             <div class="form-group">
-                <label>पदनाम *</label>
+                <label>Designation *</label>
                 <select class="form-control" name="post" id="post" required>
                     <option value="" disabled selected>Select Post</option>
                     
@@ -403,7 +404,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
             </div>
             
             <div class="form-group">
-                <label name="subpostlabel" id="subpostlabel" > उप पदनाम *</label>
+                <label name="subpostlabel" id="subpostlabel" > Sub-designation *</label>
                 <select class="form-control" name="subpost" id="subpost" >
                     <option value="" disabled selected>Select sub Post</option>
                     
@@ -411,22 +412,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
             </div>
 
             <div class="form-group">
-                <label>विद्यालय / आफिस  का नाम *</label>
+                <label>Name of the school/office *</label>
                 <input type="text" class="form-control" name="school_name_with_nprc" id="school_name_with_nprc" required />
             </div>
             <div class="form-group">
-                <label>पोस्टिंग ब्लाक *</label>
+                <label>Posting block *</label>
                 <input type="text" class="form-control" name="block" id="block" required />
             </div>
             <div class="form-group">
-                <label>प्रदेश *</label>
+                <label>State *</label>
                 <select class="form-control" name="state" id="state" required >
                 <option value="" disabled selected>Select State</option>
                 <option value='AP'>Andhra Pradesh</option><option value='AR'>Arunachal Pradesh</option><option value='AS'>Assam</option><option value='BR'>Bihar</option><option value='CT'>Chhattisgarh</option><option value='GA'>Goa</option><option value='GJ'>Gujarat</option><option value='HR'>Haryana</option><option value='HP'>Himachal Pradesh</option><option value='JK'>Jammu & Kashmir</option><option value='JH'>Jharkhand</option><option value='KA'>Karnataka</option><option value='KL'>Kerala</option><option value='MP'>Madhya Pradesh</option><option value='MH'>Maharashtra</option><option value='MN'>Manipur</option><option value='ML'>Meghalaya</option><option value='MZ'>Mizoram</option><option value='NL'>Nagaland</option><option value='OR'>Odisha</option><option value='PB'>Punjab</option><option value='RJ'>Rajasthan</option><option value='SK'>Sikkim</option><option value='TN'>Tamil Nadu</option><option value='TR'>Tripura</option><option value='UK'>Uttarakhand</option><option value='UP'>Uttar Pradesh</option><option value='WB'>West Bengal</option>                </select>
             </div>
 
             <div class="form-group">
-                <label>पोस्टिंग जिला *</label>
+                <label>Posting district *</label>
                 <select class="form-control" name="district" id="district" required >
                 <option value="" disabled selected>Select District</option>
                         
@@ -434,78 +435,78 @@ body {font-family: Arial, Helvetica, sans-serif;}
             </div>
             
             <div class="form-group">
-                <label>होम एड्रेस *</label>
+                <label>Home Address *</label>
                 <input type="text" class="form-control" name="home_address" id="home_address" required />
             </div> 
             <div class="form-group">
-                <label>होम डिस्ट्रिक्ट *</label>
+                <label>Home District *</label>
                 <select class="form-control" name="home_district" id="home_district" required >
                     <option value="" disabled selected>Select Home District</option>
                 <option value='Agra'>Agra</option><option value='Aligarh'>Aligarh</option><option value='Ambedkar Nagar'>Ambedkar Nagar</option><option value='Amethi'>Amethi</option><option value='Amroha'>Amroha</option><option value='Auraiya'>Auraiya</option><option value='Ayodhya (Faizabad)'>Ayodhya (Faizabad)</option><option value='Azamgarh'>Azamgarh</option><option value='Bagpat'>Bagpat</option><option value='Bahraich'>Bahraich</option><option value='Balarampur'>Balarampur</option><option value='Ballia'>Ballia</option><option value='Banda'>Banda</option><option value='Barabanki'>Barabanki</option><option value='Bareilly'>Bareilly</option><option value='Basti'>Basti</option><option value='Bijnor'>Bijnor</option><option value='Budaun'>Budaun</option><option value='Bulandshahr'>Bulandshahr</option><option value='Chandauli'>Chandauli</option><option value='Chitrakoot'>Chitrakoot</option><option value='Deoria'>Deoria</option><option value='Etah'>Etah</option><option value='Etawah'>Etawah</option><option value='Farrukhabad'>Farrukhabad</option><option value='Fatehpur'>Fatehpur</option><option value='Firozabad'>Firozabad</option><option value='Gautam Buddha Nagar'>Gautam Buddha Nagar</option><option value='Ghaziabad'>Ghaziabad</option><option value='Ghazipur'>Ghazipur</option><option value='Gonda'>Gonda</option><option value='Gorakhpur'>Gorakhpur</option><option value='Hamirpur'>Hamirpur</option><option value='Hapur'>Hapur</option><option value='Hardoi'>Hardoi</option><option value='Hathras'>Hathras</option><option value='Jalaun'>Jalaun</option><option value='Jaunpur'>Jaunpur</option><option value='Jhansi'>Jhansi</option><option value='Kannauj'>Kannauj</option><option value='Kanpur Dehat'>Kanpur Dehat</option><option value='Kanpur Nagar'>Kanpur Nagar</option><option value='Kasganj'>Kasganj</option><option value='Kaushambi'>Kaushambi</option><option value='Kushinagar'>Kushinagar</option><option value='Lakhimpur Kheri'>Lakhimpur Kheri</option><option value='Lalitpur'>Lalitpur</option><option value='Lucknow'>Lucknow</option><option value='Maharajganj'>Maharajganj</option><option value='Mahoba'>Mahoba</option><option value='Mainpuri'>Mainpuri</option><option value='Mathura'>Mathura</option><option value='Mau'>Mau</option><option value='Meerut'>Meerut</option><option value='Mirzapur'>Mirzapur</option><option value='Moradabad'>Moradabad</option><option value='Muzaffarnagar'>Muzaffarnagar</option><option value='Pilibhit district'>Pilibhit district</option><option value='Pratapgarh'>Pratapgarh</option><option value='Prayagraj'>Prayagraj</option><option value='Raebareli'>Raebareli</option><option value='Rampur'>Rampur</option><option value='Saharanpur'>Saharanpur</option><option value='Sambhal'>Sambhal</option><option value='Sant Kabir Nagar'>Sant Kabir Nagar</option><option value='Sant Ravidas Nagar'>Sant Ravidas Nagar</option><option value='Shahjahanpur'>Shahjahanpur</option><option value='Shamli'>Shamli</option><option value='Shravasti'>Shravasti</option><option value='Siddharthnagar'>Siddharthnagar</option><option value='Sitapur'>Sitapur</option><option value='Sonbhadra'>Sonbhadra</option><option value='Sultanpur'>Sultanpur</option><option value='Unnao'>Unnao</option><option value='Varanasi'>Varanasi</option>                </select>
             </div>
             <div class="form-group">
-                <label>नामिनी 1 *</label>
+                <label>Nominee 1 *</label>
                 <input type="text" class="form-control" name="first_nominee_name" id="first_nominee_name" required />
             </div>
             <div class="form-group">
-                <label>नामिनी से सम्बन्ध *</label>
+                <label>Relationship with Nominee *</label>
                 <input type="text" class="form-control" name="first_nominee_relation" id="first_nominee_relation" required />
             </div>
             <div class="form-group">
-                <label> नामिनी 1 का मोबाइल *</label>
+                <label> Mobile number of Nominee 1 *</label>
                 <input type="text" class="form-control" name="first_nominee_mobile" id="first_nominee_mobile" title="Enter mobile Number" pattern="[0-9]{10}"  required  />
             </div>
             <div class="form-group">
-                <label>( नामिनी 2 )</label>
+                <label>( Nominee 2 )</label>
                 <input type="text" class="form-control" name="second_nominee_name" id="second_nominee_name"  />
             </div>
             <div class="form-group">
-                <label>( नामिनी 2 से सम्बन्ध )</label>
+                <label>( Relationship with Nominee 2 )</label>
                 <input type="text" class="form-control" name="second_nominee_relation" id="second_nominee_relation" />
             </div>
             <div class="form-group">
-                <label>( नामिनी 2 का मोबाइल )</label>
+                <label>( Mobile number of Nominee 2 )</label>
                 <input type="text" class="form-control" name="second_nominee_mobile" id="second_nominee_mobile" title="Enter mobile Number" pattern="[0-9]{10}" />
             </div>
             <div class="form-group">
-                <label> बीमारी (यदि कोई हो तो) *</label>
+                <label> Illness (if any) *</label>
                 <input type="text" class="form-control" name="disease" id="disease" required />
             </div>
             <div class="form-group">
-                <label> बीमारी का विवरण(कब से है, अन्य की स्थिति में बीमारी का नाम भी लिखें)) *</label>
+                <label> Details of illness (Since when, also write the name of the illness if applicable) *</label>
                 <input type="text" class="form-control" name="couse_of_illness" id="couse_of_illness" required />
             </div>
             <div class="form-group">
-                <label>क्या पूर्व में रजिस्ट्रेशन कर चुके हैं? हां/नही *</label> 
+                <label>Have you previously registered? Yes/No *</label> 
                 <div>
                     <input type="radio" name="registered" id="no" value="NA" onclick="clear_tc_id()"/>
-                    <label for="no"> नही</label>
+                    <label for="no"> No</label>
                 </div>
                 <div>
                     <input type="radio" name="registered" id="yes" value="yes" onclick="get_tc_id()" />
-                    <label for="yes"> हा</label>
+                    <label for="yes"> Yes</label>
                 </div>
             </div>
             <div class="form-group" id="tc_id" name="tc_id">
                
             </div>
             <div class="form-group">
-                <label>मोबाइल * ( For Login ID )</label>
+                <label>Mobile * ( For Login ID )</label>
                 <input type="text" class="form-control" name="mobile" id="mobile" title="Enter mobile Number" pattern="[0-9]{10}" required />
             </div>
             <div class="form-group">
-                <label>मोबाइल होम </label>
+                <label>Mobile Home </label>
                 <input type="text" class="form-control" name="mobile_home" id="mobile_home" title="Enter mobile Number" pattern="[0-9]{10}" />
             </div>
             <div class="form-group">
                 <span>
-                    <label for="checkbox">घोषणा</label>
+                    <label for="checkbox">Announcement</label>
                 </span><br>
                 <span>
                 <input type="checkbox" name="declaration" id="declaration" required style="height:20px; width:20px;" />
                 
                 
-                    मैंने TSCT से जुड़ने, सहयोग करने सम्बधी जानकारी प्राप्त कर ली है। मैंने वेबसाइट पर नियमावली को पढ़ लिया है, मैं सभी नियम एवं शर्तो से सहमत हूं। मै आधिकारिक टेलीग्राम ग्रुप से जुड़कर सप्ताह मे कम से कम दो बार अवश्य विज़िट करके जानकारी से अपडेट रहूँगा। यदि TSCT द्वारा बनाए गए नियमों के अंतर्गत मै सहयोग नहीं करता हूँ तो मेरे नॉमिनी द्वारा सहयोग प्राप्त करने का दावा नहीं किया जाएगा।
+                I have obtained information regarding joining and assisting through TSCT. I have read the rules on the website, and I agree with all the rules and conditions. I will stay updated by visiting the official Telegram group at least twice a week. If I do not cooperate according to the rules made by TSCT, my nominee will not claim assistance.
                 </span>
             </div>
             <button type="submit" name="submit" id="submit" class="btn btn-primary btn-lg btn-block">
