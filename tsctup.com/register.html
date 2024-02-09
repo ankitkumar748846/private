@@ -460,52 +460,52 @@ body {font-family: Arial, Helvetica, sans-serif;}
                 <input type="text" class="form-control" name="second_nominee_name" id="second_nominee_name"  />
             </div>
             <div class="form-group">
-                <label>( नामिनी 2 से सम्बन्ध )</label>
+                <label>( Relationship with Nominee 2 )</label>
                 <input type="text" class="form-control" name="second_nominee_relation" id="second_nominee_relation" />
             </div>
             <div class="form-group">
-                <label>( नामिनी 2 का मोबाइल )</label>
+                <label>( Mobile number of Nominee 2 )</label>
                 <input type="text" class="form-control" name="second_nominee_mobile" id="second_nominee_mobile" title="Enter mobile Number" pattern="[0-9]{10}" />
             </div>
             <div class="form-group">
-                <label> बीमारी (यदि कोई हो तो) *</label>
+                <label> Illness (if any) *</label>
                 <input type="text" class="form-control" name="disease" id="disease" required />
             </div>
             <div class="form-group">
-                <label> बीमारी का विवरण(कब से है, अन्य की स्थिति में बीमारी का नाम भी लिखें)) *</label>
+                <label> Details of illness (Since when, also write the name of the illness if applicable) *</label>
                 <input type="text" class="form-control" name="couse_of_illness" id="couse_of_illness" required />
             </div>
             <div class="form-group">
-                <label>क्या पूर्व में रजिस्ट्रेशन कर चुके हैं? हां/नही *</label> 
+                <label>Have you previously registered? Yes/No *</label> 
                 <div>
                     <input type="radio" name="registered" id="no" value="NA" onclick="clear_tc_id()"/>
-                    <label for="no"> नही</label>
+                    <label for="no"> No</label>
                 </div>
                 <div>
                     <input type="radio" name="registered" id="yes" value="yes" onclick="get_tc_id()" />
-                    <label for="yes"> हा</label>
+                    <label for="yes"> Yes</label>
                 </div>
             </div>
             <div class="form-group" id="tc_id" name="tc_id">
                
             </div>
             <div class="form-group">
-                <label>मोबाइल * ( For Login ID )</label>
+                <label>Mobile * ( For Login ID )</label>
                 <input type="text" class="form-control" name="mobile" id="mobile" title="Enter mobile Number" pattern="[0-9]{10}" required />
             </div>
             <div class="form-group">
-                <label>मोबाइल होम </label>
+                <label>Mobile Home </label>
                 <input type="text" class="form-control" name="mobile_home" id="mobile_home" title="Enter mobile Number" pattern="[0-9]{10}" />
             </div>
             <div class="form-group">
                 <span>
-                    <label for="checkbox">घोषणा</label>
+                    <label for="checkbox">Announcement</label>
                 </span><br>
                 <span>
                 <input type="checkbox" name="declaration" id="declaration" required style="height:20px; width:20px;" />
                 
                 
-                    मैंने TSCT से जुड़ने, सहयोग करने सम्बधी जानकारी प्राप्त कर ली है। मैंने वेबसाइट पर नियमावली को पढ़ लिया है, मैं सभी नियम एवं शर्तो से सहमत हूं। मै आधिकारिक टेलीग्राम ग्रुप से जुड़कर सप्ताह मे कम से कम दो बार अवश्य विज़िट करके जानकारी से अपडेट रहूँगा। यदि TSCT द्वारा बनाए गए नियमों के अंतर्गत मै सहयोग नहीं करता हूँ तो मेरे नॉमिनी द्वारा सहयोग प्राप्त करने का दावा नहीं किया जाएगा।
+                I have obtained information regarding joining and assisting through TSCT. I have read the rules on the website, and I agree with all the rules and conditions. I will stay updated by visiting the official Telegram group at least twice a week. If I do not cooperate according to the rules made by TSCT, my nominee will not claim assistance.
                 </span>
             </div>
             <button type="submit" name="submit" id="submit" class="btn btn-primary btn-lg btn-block">
